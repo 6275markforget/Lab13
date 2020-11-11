@@ -33,6 +33,20 @@ public class SortingAlgorithms {
 	 */
 	public static void insertionSort(List<Location> locations) {
 		// TODO: implement insertion sort here
+		//iterate through list
+		for(int j = 1; j < locations.size(); j++) {
+		//compare current key to predecessor
+			int key = locations[j];
+			int i = j - 1;
+		//while current key is smaller than predecessor, compare to elements before. Move the greater elements up a position to make space for key
+			while(locations.get(i).compareTo(locations.get(key) < 0) {
+				i--;
+			}
+			// swap
+			Location temp = locations.get(i);
+			locations.set(i, locations.get(key));
+			locations.set(key, temp);
+		}
 	}
 
 	/**
@@ -53,5 +67,6 @@ public class SortingAlgorithms {
 	 */
 	private static void quickSortRecursive(List<Location> locations, int low, int high) {
 		// TODO: implement quick sort here
+		https://www.java67.com/2014/07/quicksort-algorithm-in-java-in-place-example.html
 	}
 }
