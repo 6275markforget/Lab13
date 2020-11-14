@@ -67,6 +67,6 @@ public class SortingAlgorithms {
 	 */
 	private static void quickSortRecursive(List<Location> locations, int low, int high) {
 		// TODO: implement quick sort here
-		https://www.java67.com/2014/07/quicksort-algorithm-in-java-in-place-example.html
+		https://www.geeksforgeeks.org/insertion-sort/
 	}
 }
